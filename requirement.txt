@@ -1,6 +1,4 @@
 # Key Node.js dependencies (see package.json for install)
-openai
-@huggingface/inference
 canvas
 tone
 plop
