@@ -1,10 +1,7 @@
 {
-  "name": "Acellerate wtih Copilot",
-  "version": "1.0.0",
-  "depen{
   "name": "accelerate-with-copilot",
   "version": "1.0.0",
-  "description": "A Node.js ecosystem for accelerated, generative development with Copilot and AI-powered workflows.",
+  "description": "A Node.js ecosystem for accelerated, generative development with Copilot and workflows.",
   "author": "CosmicJesterX",
   "license": "MIT",
   "main": "index.js",
@@ -43,10 +40,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/CosmicJesterX/-accelerate-with-copilot-.git"
-  }
-}
-dencies": {
-    "express": "^4.18.2",
-    "lodash": "^4.17.21"
   }
 }
