@@ -1,44 +1,29 @@
 {
-  "name": "accelerate-with-copilot",
+  "name": "MrClean",
   "version": "1.0.0",
-  "description": "A Node.js ecosystem for accelerated, generative development with Copilot and workflows.",
-  "author": "CosmicJesterX",
-  "license": "MIT",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "format": "prettier --write .",
     "lint": "eslint .",
-    "test": "echo \"No tests specified\" && exit 0"
+    "format": "prettier --write .",
+    "test": "echo \"No test specified\" && exit 0",
+    "prepare": "npm run lint && npm run format"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "lodash": "^4.17.21",
-    "openai": "^4.36.0",
-    "@huggingface/inference": "^2.6.0",
-    "canvas": "^2.11.2",
-    "tone": "^14.8.49"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "nodemon": "^3.1.0",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "keywords": [
-    "copilot",
-    "generative",
-    "ai",
-    "automation",
     "nodejs",
-    "express"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CosmicJesterX/-accelerate-with-copilot-.git"
-  }
+    "automation",
+    "copilot",
+    "productivity"
+  ]
 }
